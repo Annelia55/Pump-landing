@@ -92,6 +92,7 @@ img {border: none;}
 }
 .header-logo {
     margin-top: 10px;
+    left: 5px;
 }
 .header-links {
     margin-top: 20px;
@@ -101,7 +102,7 @@ img {border: none;}
 }
 .header-links img {
     position: absolute;
-    margin: 4px 0 0 -40px;
+    margin: 4px 0 0 -50px;
 }
 .nav-on-bottom a,
 .header-links .phone-number {
@@ -133,7 +134,7 @@ img {border: none;}
 }
 #basket #img-basket {
     z-index: 1;
-    padding: 20px 34px 20px 34px;
+    padding: 20px 40px 20px 20px;
 }
 #basket li p {
     font-size: 13px;
@@ -148,7 +149,7 @@ img {border: none;}
     width: 25px;
     border-radius: 50%;
     background-color: #FFFFFF;
-    margin: 10px 0 0 65px;
+    margin: 10px 0 0 50px;
 }
 #circle p {
     text-align: center;
@@ -282,7 +283,7 @@ img {border: none;}
 #search-box form {
     margin:0;
     padding: 0;
-    width: 400px;
+    width: 100%;
 }
 #search-box form input {
     border: none;
@@ -617,7 +618,7 @@ img {border: none;}
         max-width: 25px;
     }
     #basket #img-basket {
-        padding: 15px 20px 20px 20px;
+        padding: 15px 32px 20px 20px;
     }
     #basket li p {
         font-size: 11px;
@@ -626,7 +627,7 @@ img {border: none;}
     #circle {
         height: 15px;
         width: 15px;
-        margin: 2px 0 0 40px;
+        margin: 8px 0 0 40px;
     }
     #circle p {
         padding-top: 1px;
@@ -699,7 +700,7 @@ img {border: none;}
         max-width: 30px;
     }
     #basket #img-basket {
-        padding: 10px 15px 28px 15px;
+        padding: 10px 33px 28px 15px;
     }
     #basket li p {
         font-size: 11px;
@@ -802,7 +803,7 @@ img {border: none;}
 @media only screen and (max-width: 816px) {
     /* Basket */
     #basket #img-basket {
-        padding: 10px 15px 32px 15px;
+        padding: 10px 28px 32px 15px;
     }
     #basket li p {
         font-size: 11px;
@@ -894,7 +895,7 @@ img {border: none;}
         color: #604292;
         bottom: -16px;
     }
-    #basket-xs #circle {
+    #basket-xs #circle-xs {
         border: 1px solid #604292;
         z-index: 2;
         position: absolute;
@@ -902,9 +903,9 @@ img {border: none;}
         width: 20px;
         border-radius: 50%;
         background-color: #fcd240;
-        margin: -5px 0 0 240px;
+        margin: -5px 0 0 255px;
     }
-    #basket-xs #circle p {
+    #basket-xs #circle-xs p {
         text-align: center;
         font: 13px "Proxima-Nova-bold", sans-serif;
         padding-top: 2px;
@@ -918,7 +919,7 @@ img {border: none;}
         text-transform: uppercase;
         letter-spacing: 1px;
         margin-left: 0;
-        padding: 10px 5px 5px 5px;
+        padding: 15px 5px 5px 25px;
         float: left;
         border: none;
         border-radius: 0;
@@ -929,6 +930,14 @@ img {border: none;}
     }
     #sidebar-navigation .sidebar-header {
         display: none;
+    }
+    #sidebar-navigation .burger {
+        position: absolute;
+        left: -20px;
+        top: 1px;
+    }
+    #sidebar-navigation .burger .icon-bar {
+        background-color: #FFFFFF;
     }
     #sidebar-navigation .dropdown .caret {
         display: block;
@@ -1154,7 +1163,6 @@ img {border: none;}
         margin-top: -10px;
     }
 }
-
 @media only screen and (max-width: 435px) {
     /* Sliders */
     .popular-links-small .first-caption-small {
